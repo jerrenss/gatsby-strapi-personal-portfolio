@@ -575,8 +575,8 @@ Jobs
 .btn-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-bottom: 4rem;
+  overflow-x: scroll;
 }
 .job-btn {
   background: transparent;
