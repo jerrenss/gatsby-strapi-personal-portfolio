@@ -30,7 +30,7 @@ const Hero = () => {
             <h1>Gerren Seow</h1>
             <h4>Aspiring Full-Stack Developer</h4>
             <Link to="/contact" className="btn">
-              contact me
+              Get In Touch
             </Link>
             <SocialLinks />
           </div>
