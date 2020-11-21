@@ -16,7 +16,7 @@ const ComponentName = ({ data }) => {
             <ReactMarkdown source={content} />
           </article>
           <Link to="/blog" className="btn center-btn">
-            blog
+            blogs
           </Link>
         </div>
       </section>
