@@ -64,6 +64,11 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-white);
@@ -118,6 +123,9 @@ p {
   }
   h4 {
     font-size: 1rem;
+  }
+  html {
+    overflow-x: unset;
   }
   body {
     font-size: 1rem;
@@ -864,6 +872,7 @@ Footer
 }
 .footer h4 {
   margin-top: 0.5rem;
+  padding: 0rem 0.5rem;
   color: var(--clr-white);
   font-weight: normal;
   text-transform: uppercase;
